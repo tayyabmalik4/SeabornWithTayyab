@@ -34,7 +34,7 @@ hue_order=['Female','Male']
 
 # ////if we want to convert the vertical to horizontal graph than we use orient parameter and if we use this parameter when we use not a int variable than it accures error-----vertial(v),horizontal(h)\
 
-# ////if we want to change the color of the graph lines than we use color parameters
+# ////if we want to change the color of the graph mid lines than we use color parameters
 
 # /////if we want to change the barplot whole colors than we use palette parameter
 
