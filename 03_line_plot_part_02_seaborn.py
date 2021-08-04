@@ -29,11 +29,11 @@ plt.grid(color='red')
 # sns.lineplot(x='size',y='total_bill',data=tips_df,hue='sex',size=40 ,style='sex',palette='hot',dashes=False,markers=['o','*'],markersize=14,legend='full')
 
 # ////if we want to plotting the data as a day than and at a time we take markers than we take the no of lines and markers are same otherwise it gone a error accure
-# sns.lineplot(x='size',y='total_bill',data=tips_df,hue='day',size=40 ,style='day',palette='hot',dashes=False,markers=['o','*','<','>'],markersize=14,legend='full')
+sns.lineplot(x='size',y='total_bill',data=tips_df,hue='day',size=40 ,style='day',palette='hot',dashes=False,markers=['o','*','<','>'],markersize=14,legend='full')
 
 # ////this is very intersting graph
-x, y = np.random.normal(size=(2, 5000)).cumsum(axis=1)
-sns.lineplot(x=x, y=y, sort=False, lw=1)
+# x, y = np.random.normal(size=(2, 5000)).cumsum(axis=1)
+# sns.lineplot(x=x, y=y, sort=False, lw=1)
 
 # ////we creat the tile and xlabel and ylabel and we also increasing or decreasing the fontsize than we use fontsize function
 plt.title("Temperature Karachi",fontsize=20)
