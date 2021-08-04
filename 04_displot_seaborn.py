@@ -1,8 +1,9 @@
 # (04)**********************Distplot in seaborn******************
 # ////histogram and dist function is similar we use as we wish
 
+# //////NOTE(distplot is remove the future version so we use histplot in matplotlib as well as displot in matplotlib function)
+
 # ------------importing the libraries
-from re import T
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
@@ -26,7 +27,7 @@ parameters="""(a=None, bins=None, hist=True, kde=True, rug=False, fit=None, hist
 # /////if we use bins function its means we breaks into parts 
 bins=np.arange(5,60,12)
 
-# //////if we don't show the graph lines than we use hist=False function and we use just kernal density ensidator 
+# //////if we don't show the graph lines than we use hist=False function and we use just kernal-density-estimate(kde) 
 # sns.distplot(tip_df['total_bill'],bins=bins,hist=False)
 
 # /////if we want to remove the kernal density encidator than we use kde=False function
@@ -35,7 +36,7 @@ bins=np.arange(5,60,12)
 # /////if we want to show the some spacific graph then we use rug function
 # sns.distplot(tip_df['total_bill'],rug=True)
 
-# ////if we to show the normilize line plot thab we use fit function but if we use this function we from scipy.stats import norm library and if we remove the kernal density line than also use jde=False function
+# ////if we to show the normilize line plot than we use fit function but if we use this function we from scipy.stats import norm library and if we remove the kernal-density-estimate(kde) line than also use kde=False function
 
 # ////if we want to change the color than we use color function
 
