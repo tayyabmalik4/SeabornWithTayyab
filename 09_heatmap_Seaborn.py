@@ -1,5 +1,8 @@
 # (09)*****************************Heatmap plotting using Seaborn**********************************
-# //////heatmap is a graphically represented of 2d array in colored formate
+# //////heatmap is a graphically represented of matrix 2d array in colored formate
+
+# /////it is usees in machine learing and datascience as a feacher engeneer
+
 
 
 # ////these are the parameters of heatmat which we use in the library
