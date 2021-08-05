@@ -1,4 +1,4 @@
-# ****************************Pairplot Seaborn**************************
+# (12)****************************Pairplot Seaborn**************************
 
 # -----------if we want to plotting the many graphs is showing the one graphs than we use pairplot
 # -----------pairplot is automatically take 2 columns and plotting the graphs

@@ -14,7 +14,7 @@
 # =>line plot
 # =>Distplot
 # =>Boxplot
-# =?Violin plot 
+# =>Violin plot 
 
 # -------this is the link of seaborn official site
 # https://seaborn.pydata.org/
