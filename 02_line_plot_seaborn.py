@@ -26,8 +26,8 @@ line_func="""(*, x=None, y=None, hue=None, size=None, style=None, data=None, pal
 # /////load_dataset is working online because it direct import in github seaborn repoositry but we also use pd library to read and load the file
 tips_df=sns.load_dataset('tips')
 print(tips_df)
-# tips_df=pd.read_csv('C:\\Tayyab Work\\seabornWithTayyab\\dataset_tips_seaborn.csv')
-# tips_df=pd.read_csv('dataset_tips_seaborn.csv')
+# tips_df=pd.read_csv('C:\\Tayyab Work\\seabornWithTayyab\\datasets\\dataset_tips_seaborn.csv')
+# tips_df=pd.read_csv('datasets\\dataset_tips_seaborn.csv')
 
 # /////plotting the graph using total_bills and tips
 # sns.lineplot(x='total_bill',y='tip', data=tips_df)

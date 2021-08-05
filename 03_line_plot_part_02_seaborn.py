@@ -9,7 +9,7 @@ import pandas as pd
 # //////we se the privios data continue
 # ////these are the parameters which we use in the lineplot
 line_func="""(*, x=None, y=None, hue=None, size=None, style=None, data=None, palette=None, hue_order=None, hue_norm=None, sizes=None, size_order=None, size_norm=None, dashes=True, markers=None, style_order=None, units=None, estimator="mean", ci=95, n_boot=1000, seed=None, sort=True, err_style="band", err_kws=None, legend="auto", ax=None, **kwargs)"""
-tips_df=pd.read_csv('dataset_tips_seaborn.csv')
+tips_df=pd.read_csv('datasets\\dataset_tips_seaborn.csv')
 
 # ////if we want to increase the figure size than we use figure function
 plt.figure(figsize=(13,13))
